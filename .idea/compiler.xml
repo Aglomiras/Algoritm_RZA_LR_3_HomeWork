@@ -6,8 +6,11 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="Algoritm_RZA_LR_3_HomeWork" />
+        <module name="Algoritm_RZA_LR_1_HomeWork" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="Algoritm_RZA_LR_3_HomeWork" target="17" />
+    </bytecodeTargetLevel>
   </component>
 </project>

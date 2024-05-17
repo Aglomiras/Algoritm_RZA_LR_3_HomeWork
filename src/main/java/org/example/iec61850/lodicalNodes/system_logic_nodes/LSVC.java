@@ -40,7 +40,6 @@ public class LSVC extends LN {
             for (int i = 2, j = 0; i < this.analogSignal + 2; i++, j++) {
                 double values = Double.parseDouble(str[i]) * this.kAList.get(j) + this.kBList.get(j);
                 this.out.get(j).getInstMag().getFloatVal().setValue(values * 1000);
-                System.out.println(values);
             }
         }
     }

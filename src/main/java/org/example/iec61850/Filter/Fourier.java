@@ -7,7 +7,6 @@ import org.example.iec61850.node_parameters.DataObject.measured_and_metered_valu
 public class Fourier extends Filter {
     private Attribute<Integer> bufferSize = new Attribute<>();
     private final MV[] buffer;
-
     public Attribute<Integer> bufferCount = new Attribute<>();
     public Attribute<Double> summValRe = new Attribute<>();
     public Attribute<Double> summValIm = new Attribute<>();
